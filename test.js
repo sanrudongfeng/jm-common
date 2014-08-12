@@ -7,6 +7,10 @@ function testDB(){
     //db1
     var dbUri = 'mongodb://localhost/test';
     var c = db.connect(dbUri, true);
+    var c1= db.connect(dbUri, true);
+    var c2= db.connect(dbUri, true);
+    db.disConnect(dbUri);
+    db.disConnect(dbUri);
     var sd = new SequenceDao(c);
     sd.getNext('uid', function(err, v){
         console.info(v);
