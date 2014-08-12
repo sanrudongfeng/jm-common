@@ -1,6 +1,6 @@
 {
   "name": "jm-common",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "common lib for jm-* projects",
   "main": "./lib/index",
   "scripts": {
