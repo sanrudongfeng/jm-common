@@ -1,0 +1,28 @@
+{
+  "name": "jm-common",
+  "version": "0.0.1",
+  "description": "common lib for jm-* projects",
+  "main": "./lib/index",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jm-root/jm-common.git"
+  },
+  "keywords": [
+    "javascript",
+    "jm-common"
+  ],
+  "author": "Jeff YU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jm-root/jm-common/issues"
+  },
+  "homepage": "https://github.com/jm-root/jm-common",
+  "dependencies": {
+    "redis": "*"
+    ,"mongoose" : "*"
+    ,"fs-extra": "*"
+  }
+}
